@@ -18,6 +18,14 @@
               <xsl:for-each select="/elorrieta/familia">
                 <li>
                   <xsl:value-of select="nombre"/>
+                  <xsl:variable name ='familia_elegida'>
+                    <xsl:value-of select="@id"/>
+                  </xsl:variable>
+                  <ul>       
+                    <xsl:for-each select="/elorrieta/familia[@id=$familia_elegida]/ciclo[tipo='Superior']">
+                      <li> <xsl:value-of select="nombre"/></li>
+                    </xsl:for-each>
+                  </ul>
                 </li>
               </xsl:for-each>
             </ul>
