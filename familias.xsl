@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:param name="tipo_grado"></xsl:param>
 	<xsl:template match="/">
@@ -6,11 +6,11 @@
 			<head>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-				<link rel="stylesheet" type="text/css" href="estilo.css"/>
-			</head>
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+      </head>
 			<body>
-				<div class=" ventana">
+				<div class="ventana">
 					<div class="cabecera">
 						<a href="home.html"><img src="" alt="logotipo"/></a>
 					</div>
