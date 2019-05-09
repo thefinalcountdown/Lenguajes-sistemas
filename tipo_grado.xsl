@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:param name="tipo_grado"></xsl:param>
-  <xsl:template match="/">
+<xsl:output omit-xml-declaration="yes" encoding="UTF-8" method="html" doctype-public="-//W3C//DTD HTML 4.01//EN" doctype-system="http://www.w3.org/TR/html4/strict.dtd" indent="yes" version="4.0"/>
+  <xsl:param name="id_familia"></xsl:param>
+  <xsl:template match="/elorrieta">
     <html>
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        <title>Familias Profesionales</title>
       </head>
       <body>
         <div class=" ventana">
@@ -15,18 +17,12 @@
           </div>
           <div class="central">
             <ul class="grados">
-              <xsl:for-each select="/elorrieta/familia">
-                <li>
-                  <xsl:value-of select="nombre"/>
-                  <xsl:variable name ='familia_elegida'>
-                    <xsl:value-of select="@id"/>
-                  </xsl:variable>
-                  <ul>       
-                    <xsl:for-each select="/elorrieta/familia[@id=$familia_elegida]/ciclo[tipo='Superior']">
-                      <li> <xsl:value-of select="nombre"/></li>
-                    </xsl:for-each>
-                  </ul>
-                </li>
+              <xsl:for-each select="familia">
+                  <li>
+                      <a>
+                          <xsl:attribute name="href">tipo_grado.php?id_fam=<xsl:value-of select="@id"/></xsl:attribute>
+                      </a>
+                  </li>  
               </xsl:for-each>
             </ul>
           </div>
