@@ -2,13 +2,50 @@
 	width: 1280px;
 	height: 1024px;
 }
+.cabecera{
+	height: 280px;
+	background-image: url("css/imagenes/cabecera.png");
+	background-repeat: no-repeat;
+}
 
+li{
+	display: block;
+	width: 194px;
+	height: 112px;
+	background-color: blue;
+	float: left;
+	margin-right: 2px;
+	/*margin-top: 498px;*/
+	
+}
+li:nth-child(-n+4){
+	margin-top: 320px;
+}
+li:nth-child(-n+1){
+	margin-left: 204px;
+}
+li:nth-child(5){
+	clear: left;
+	margin-top: 30px;
+	margin-left: 102px;
+}
+li:nth-child(n+5){
+	margin-top: 30px;
+	}
+
+.footer{
+	clear: both;
+	align-content:left;
+}
 .boton{
-	width: 310px;
+	width: 318px;
 	height: 200px;
 	border: 1px solid white;
 	background-color: black;
-	float: right;
-	margin-top:600px
+	float: left;
+	margin-top:600px;
+	margin-left: none;
 	color: white;
 }
+
+
