@@ -1,16 +1,16 @@
 .ventana{
 	width: 1280px;
 	height: 1024px;
-	background-image: url("css/imagenes/bg-familias.jpg");
-	background-repeat: no-repeat;
 }
+
 .cabecera{
 	height: 30px;
-	/*background-image: url("css/imagenes/cabecera.png");*/
 	background-repeat: no-repeat;
 }
 
-li{
+
+/*BOTONES INTERIOR VER POR FAMILIAS*/
+.gradosFamilias{
 	display: block;
 	width: 194px;
 	height: 112px;
@@ -20,27 +20,38 @@ li{
 	text-align: center;
 	font-size: 25px;
 	font-family: sans-serif;
-	
-	
 }
-li:nth-child(-n+4){
+.gradosFamilias a{
+	color:white;
+	text-decoration: none;
+}
+
+.gradosFamilias:nth-child(-n+4){
 	margin-top: 320px;
 }
-li:nth-child(-n+1){
+.gradosFamilias:nth-child(-n+1){
 	margin-left: 165px;
 }
-li:nth-child(5){
+.gradosFamilias:nth-child(5){
 	clear: left;
 	margin-top: 130px;
 	margin-left: 70px;
 }
-li:nth-child(n+5){
+.gradosFamilias:nth-child(n+5){
 	margin-top: 50px;
 	}
 
 .footer{
 	clear: both;
 }
+.boton img{
+	height: 98px;
+	margin-top: 30px;
+}
+.boton p{
+	padding-top: 8px;
+}
+
 .boton{
 	width: 315px;
 	height: 200px;
@@ -53,5 +64,7 @@ li:nth-child(n+5){
 	font-size:20px;
 	text-align:center;
 }
+
+
 
 

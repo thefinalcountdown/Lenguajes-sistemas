@@ -12,16 +12,16 @@
 				<link rel="stylesheet" type="text/css" href="estilo.css"/>
 			</head>
 			<body>
-				<div class=" ventana">
+				<div class="ventana" style="background-image: url('css/imagenes/bg-familias.jpg')"> 
 					<div class="cabecera">
 						<a href="home.html">
-                            <img src="" alt="logotipo"/>
+                            <img src="css/imagenes/cabecera.png" alt="logotipo"/>
                         </a>
 					</div>
 					<div class="central">
 						<ul class="grados">
 							<xsl:for-each select="familia">
-								<li> 
+								<li class="gradosFamilias"> 
                                     <a>
                                         <xsl:attribute name="href">
                                             tipo_grado.php?id_fam=<xsl:value-of select="@id"/>
@@ -33,10 +33,10 @@
 						</ul>
 					</div>
 					<div class="footer">
-						<div class="boton" href="index.html"><i class="fas fa-home"></i>home</div>
-						<div class="boton" href="ciclos_superiores.php"><i class="fas fa-graduation-cap"></i>grados superiores</div>
-						<div class="boton" href="ciclos_medios.php"><i class="fas fa-book"></i>grados medios</div>
-						<div class="boton" href="familias.php"><i class="fas fa-sitemap"></i>Familias profesionales</div>
+						<div class="boton"><a href="index.html"><img src="css/imagenes/home.png"/></a><br/>home</div>
+						<div class="boton"><a href="ciclos_superiores.php"><img src="css/imagenes/porsuperior.png"/></a><br/>grado superior</div>
+						<div class="boton"><a href="ciclos_medios.php"><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
+						<div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
 					</div>
 				</div>
 			</body>
