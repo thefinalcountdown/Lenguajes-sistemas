@@ -4,14 +4,14 @@
     error_reporting(E_ALL);
     
    $reglas = new DOMDocument();
-   $reglas->load("tipo_grado.xsl");
+   $reglas->load("ciclos_superiores.xsl");
 
    $datos = new DOMDocument();
    $datos->load("elorrieta.xml");
 
    $proc = new XSLTProcessor();
    $proc->importStylesheet($reglas);
-   $proc->setParameter('', 'id_familia',$_GET['id_fam']);
+   $proc->setParameter('', 'id_grado',$_GET['id_ciclo']);
    echo $proc->transformToXML($datos);
 
 ?>

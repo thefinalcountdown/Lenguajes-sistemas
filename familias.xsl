@@ -1,13 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:param name="id_familia"> </xsl:param>
-    
-    <xsl:output omit-xml-declaration="yes" encoding="UTF-8" method="html" doctype-public="-//W3C//DTD HTML 4.01//EN" doctype-system="http://www.w3.org/TR/html4/strict.dtd" indent="yes" version="4.0"/>
+
+	<xsl:output 
+		omit-xml-declaration="yes" 
+		encoding="UTF-8" 
+		method="html" 
+		doctype-public="-//W3C//DTD HTML 4.01//EN" 
+		doctype-system="http://www.w3.org/TR/html4/strict.dtd" 
+		indent="yes" version="4.0"
+	/>
 	<xsl:template match="/elorrieta">
 		<html>
 			<head>
-				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-				<meta name="viewport" content="width=device-width, initial-scale=1"/>
+				<title>Familias Profesionales</title>
 				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
 				<link rel="stylesheet" type="text/css" href="estilo.css"/>
 			</head>
@@ -22,12 +27,12 @@
 						<ul class="grados">
 							<xsl:for-each select="familia">
 								<li class="gradosFamilias"> 
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            tipo_grado.php?id_fam=<xsl:value-of select="@id"/>
-                                        </xsl:attribute>
-                                        <span> <xsl:value-of select="nombre"/> </span>
-                                    </a>
+                                   <a>
+										<xsl:attribute name = "href">
+											grado_familia.php?id_family = <xsl:value-of select = "@id"/>
+										</xsl:attribute>
+										<span><xsl:value-of select = "nombre"/></span>
+									</a>
                                 </li>
 							</xsl:for-each>
 						</ul>
@@ -38,8 +43,14 @@
 						<div class="boton"><a href="ciclos_medios.php"><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
 						<div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
 					</div>
+
 				</div>
 			</body>
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
+
+
+
+
+

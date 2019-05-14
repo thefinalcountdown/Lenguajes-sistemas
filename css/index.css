@@ -1,1 +1,108 @@
 
+body{
+	margin:none;
+	width: 1280px;
+	height: 1024px;
+}
+.ventana{
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 1280px;
+	height: 1024px;
+	background-image: url("imagenes/fondo_principal.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cabecera{
+	height: 150px;
+	background-image: url("imagenes/cabecera_prueba2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translate(0%, 0%);
+	
+}
+
+.central{
+	display: block;
+	height: auto;
+	
+}
+
+li{
+	background-image: url("imagenes/Hexagono.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 310px;
+	height: 300px;
+	margin-left: 60px;
+	margin-top: 200px;
+	display: block;
+	float:left;
+	text-align: center;
+	padding: 0;
+	
+}
+a{
+	text-decoration: none;
+	color: #ffff;
+	text-align: center;
+}
+.elemento-lista {
+	font-family: 'Amatic SC', cursive;
+	font-size: 3.5em;
+	color: white;
+  margin-left: 103px;
+	margin-top: 345px;
+  transform: translate(-15%, -50%);
+	
+	
+}
+
+.elemento-lista a{
+text-align: center;
+vertical-align: middle;
+color: white;
+line-height: 120px; /*or you could use 4em*/
+}
+
+.contacto{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	clear:both;
+	float:right;
+	margin-right:  560px;
+	width:165px;
+	height: 40px;
+	margin-top:none;
+	background-color: rgba(162,162,162,0.70);
+	padding:10px;
+	color: #000;
+	border-radius: 10px;
+	text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+	
+}
+
+.boton{
+	display:none;/*
+	clear: both;
+	width: 318.5px;
+	height: 200px;
+	border: 1px solid white;
+	background-color: black;
+	float:left;
+	*/
+	
+}
+.footer{
+	display: none;
+	/*
+	display: flex;
+	justify-content: center;
+	clear:both;
+	*/
+}
+
+
