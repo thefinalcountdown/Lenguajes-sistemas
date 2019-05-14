@@ -15,7 +15,7 @@
 					</div>
 					<div class="central">
 						<ul class="grados">
-							<xsl:for-each select="/elorrieta/familia/ciclo[tipo='Superior']">
+							<xsl:for-each select="/elorrieta/familia/ciclo[tipo='Medio']">
 								<li>
 									<a>
 										<xsl:attribute name = "href">
