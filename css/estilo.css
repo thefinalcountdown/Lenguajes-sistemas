@@ -1,0 +1,70 @@
+.ventana{
+	width: 1280px;
+	height: 1024px;
+}
+
+.cabecera{
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+
+/*BOTONES INTERIOR VER POR FAMILIAS*/
+.gradosFamilias{
+	display: block;
+	width: 194px;
+	height: 112px;
+	color: white;
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.gradosFamilias a{
+	color:white;
+	text-decoration: none;
+}
+
+.gradosFamilias:nth-child(-n+4){
+	margin-top: 320px;
+}
+.gradosFamilias:nth-child(-n+1){
+	margin-left: 165px;
+}
+.gradosFamilias:nth-child(5){
+	clear: left;
+	margin-top: 130px;
+	margin-left: 70px;
+}
+.gradosFamilias:nth-child(n+5){
+	margin-top: 50px;
+	}
+
+.footer{
+	clear: both;
+}
+.boton img{
+	height: 98px;
+	margin-top: 30px;
+}
+.boton p{
+	padding-top: 8px;
+}
+
+.boton{
+	width: 315px;
+	height: 200px;
+	border: 1px solid white;
+	background-color: black;
+	float: left;
+	margin-top:200px;
+	color: white;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+
+
+
