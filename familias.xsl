@@ -13,7 +13,6 @@
 		<html>
 			<head>
 				<title>Familias Profesionales</title>
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
 				<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 			</head>
 			<body>
@@ -27,11 +26,9 @@
 						<ul class="grados">
 							<xsl:for-each select="familia">
 								<li class="gradosFamilias"> 
-                                   <a>
-										<xsl:attribute name = "href">
-											grado_familia.php?id_family = <xsl:value-of select = "@id"/>
-										</xsl:attribute>
-										<span><xsl:value-of select = "nombre"/></span>
+                                   	<a>
+										<xsl:attribute name="href">grado_familia.php?id_family=<xsl:value-of select = "@id"/></xsl:attribute>
+										<span><xsl:value-of select="nombre"/></span>
 									</a>
                                 </li>
 							</xsl:for-each>
