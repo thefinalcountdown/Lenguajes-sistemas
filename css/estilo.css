@@ -1,0 +1,213 @@
+.ventana{
+	width: 1280px;
+	height: 1024px;
+}
+.central{
+	height: 780px;
+}
+
+.cabecera{
+	height: 30px;
+	background-repeat: no-repeat;
+}
+/*font-family: 'Amatic SC', cursive;
+
+/*BOTONES INTERIOR VER POR FAMILIAS*/
+.gradosFamilias{
+	display: block;
+	width: 194px;
+	height: 112px;
+	color: white;
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.gradosFamilias a{
+	color:white;
+	text-decoration: none;
+}
+
+.gradosFamilias:nth-child(-n+4){
+	margin-top: 320px;
+}
+.gradosFamilias:nth-child(-n+1){
+	margin-left: 165px;
+}
+.gradosFamilias:nth-child(5){
+	clear: left;
+	margin-top: 130px;
+	margin-left: 70px;
+}
+.gradosFamilias:nth-child(n+5){
+	margin-top: 50px;
+	}
+
+/*BOTONES INTERIOR VER POR GRADOS SUPERIORES*/
+.gradosSuperiores{
+	display: block;
+	width: 170px;
+	height: 80px;
+	color: white;
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	font-size: 23px;
+	font-family: sans-serif;
+}
+.gradosSuperiores a{
+	color:white;
+	text-decoration: none;
+}
+.gradosSuperiores:nth-child(1){
+	height: 48px;
+	margin-top: 145px;
+	margin-left: 497px;
+}
+
+.gradosSuperiores:nth-child(2){
+	clear: left;
+	height: 48px;
+	margin-top: 30px;
+	margin-left: 330px;
+}
+
+.gradosSuperiores:nth-child(3){
+	height: 48px;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+
+.gradosSuperiores:nth-child(4){
+	clear:both;
+	height: 80px;
+	font-size: 20px;
+	margin-top: 26px;
+	margin-left: 170px;
+}
+
+.gradosSuperiores:nth-child(5){
+	height: 48px;
+	margin-top: 34px;
+	margin-left: 150px;
+}
+.gradosSuperiores:nth-child(6){
+	height: 72px;
+	margin-top: 20px;
+	margin-left: 147px;
+}
+.gradosSuperiores:nth-child(7){
+	clear: both;
+	margin-left: 330px;
+}
+
+.gradosSuperiores:nth-child(8){
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 145px;
+}
+
+.gradosSuperiores:nth-child(9){
+	clear: both;
+	margin-left: 170px;
+}
+.gradosSuperiores:nth-child(10){
+	margin-left: 150px;
+}
+.gradosSuperiores:nth-child(11){
+	margin-left: 150px;
+}
+.gradosSuperiores:nth-child(12){
+	clear: both;
+	margin-left: 330px;
+}
+.gradosSuperiores:nth-child(13){
+	margin-left: 147px;
+}
+
+.gradosSuperiores:nth-child(14){
+	clear: both;
+	margin-top: 20px;
+	margin-left: 490px;
+}
+/*BOTONES INTERIOR VER POR GRADOS MEDIOS*/
+.gradosMedios{
+	display: block;
+	width: 194px;
+	height: 112px;
+	color: white;
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.gradosMedios a{
+	color:white;
+	text-decoration: none;
+}
+
+.gradosMedios:nth-child(1){
+	height: 52px;
+	margin-top: 200px;
+	margin-left: 750px;
+}
+
+.gradosMedios:nth-child(2){
+	clear: both;
+	height: 78px;
+	margin-top: 20px;
+	margin-left: 520px;
+}
+
+.gradosMedios:nth-child(3){
+	clear: both;
+	height: 78px;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.gradosMedios:nth-child(4){
+	height: 78px;
+	margin-top: 90px;
+	margin-left: 220px;
+}
+.gradosMedios:nth-child(5){
+	clear: both;
+	height: 78px;
+	margin-top: 70px;
+	margin-left: 240px;
+}
+.gradosMedios:nth-child(6){
+	height: 52px;
+	margin-top: 5px;
+	margin-left: 40px;
+}
+.footer{
+	clear: both;
+}
+.boton img{
+	height: 98px;
+	margin-top: 30px;
+}
+.boton p{
+	padding-top: 8px;
+}
+
+.boton{
+	width: 315px;
+	height: 200px;
+	border: 1px solid white;
+	background-color: black;
+	float: left;
+	/*margin-top:200px;*/
+	color: white;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+
+
+
