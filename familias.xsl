@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:output 
@@ -10,11 +10,16 @@
 		indent="yes" version="4.0"
 	/>
 	<xsl:template match="/elorrieta">
-		<html>
-			<head>
-				<title>Familias Profesionales</title>
-				<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-			</head>
+<html>
+<xsl:template name="addOpenSansStart">
+  <head>
+    <xsl:element name="link">
+      <xsl:attribute name="href">https://fonts.googleapis.com/css?family=Oswald&display=swap</xsl:attribute>
+      <xsl:attribute name="href">css/estilo.css</xsl:attribute>
+      <xsl:attribute name="rel">stylesheet</xsl:attribute>
+      <xsl:attribute name="type">text/css</xsl:attribute>
+    </xsl:element>
+  </head>
 			<body>
 				<div class="ventana" style="background-image: url('css/imagenes/bg-familias.jpg')"> 
 					<div class="cabecera">
@@ -40,14 +45,9 @@
 						<div class="boton"><a href="ciclos_medios.php"><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
 						<div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
 					</div>
-
 				</div>
 			</body>
-		</html>
+		</xsl:template>
+				</html>
 	</xsl:template>
-</xsl:stylesheet>
-
-
-
-
-
+</xsl:stylesheet> 
