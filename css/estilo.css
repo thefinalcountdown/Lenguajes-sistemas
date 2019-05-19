@@ -22,7 +22,8 @@
 	margin-right: 6px;
 	text-align: center;
 	font-size: 25px;
-	font-family: sans-serif;
+	font-family: 'Oswald', sans-serif;
+	line-height : 25px;
 }
 .gradosFamilias a{
 	color:white;
@@ -31,19 +32,26 @@
 
 .gradosFamilias:nth-child(-n+4){
 	margin-top: 320px;
+	margin-left: 4px;
 }
 .gradosFamilias:nth-child(-n+1){
 	margin-left: 165px;
 }
 .gradosFamilias:nth-child(5){
 	clear: left;
-	margin-top: 130px;
+	margin-top: 140px;
 	margin-left: 70px;
 }
 .gradosFamilias:nth-child(n+5){
-	margin-top: 50px;
+	margin-top: 70px;
 	}
-
+.gradosFamilias:nth-child(9){
+	margin-top: 80px;
+	margin-left: 10px;
+}
+.gradosFamilias:nth-child(6){
+	margin-top: 80px;
+}
 /*BOTONES INTERIOR VER POR GRADOS SUPERIORES*/
 .gradosSuperiores{
 	display: block;
@@ -54,7 +62,8 @@
 	margin-right: 6px;
 	text-align: center;
 	font-size: 23px;
-	font-family: sans-serif;
+	font-family: 'Oswald', sans-serif;
+	line-height : 25px;
 }
 .gradosSuperiores a{
 	color:white;
@@ -82,54 +91,63 @@
 .gradosSuperiores:nth-child(4){
 	clear:both;
 	height: 80px;
-	font-size: 20px;
-	margin-top: 26px;
+	margin-top: 15px;
 	margin-left: 170px;
 }
 
 .gradosSuperiores:nth-child(5){
+	width: 140px;
 	height: 48px;
-	margin-top: 34px;
-	margin-left: 150px;
+	margin-top: 40px;
+	margin-left: 165px;
 }
 .gradosSuperiores:nth-child(6){
 	height: 72px;
 	margin-top: 20px;
-	margin-left: 147px;
+	margin-left: 160px;
 }
 .gradosSuperiores:nth-child(7){
 	clear: both;
-	margin-left: 330px;
+	width: 140px;
+	margin-left: 340px;
 }
 
 .gradosSuperiores:nth-child(8){
+	width: 140px;
 	height: 80px;
 	margin-top: 10px;
-	margin-left: 145px;
+	margin-left: 180px;
 }
 
 .gradosSuperiores:nth-child(9){
 	clear: both;
-	margin-left: 170px;
+	width: 140px;
+	margin-left: 186px;
 }
 .gradosSuperiores:nth-child(10){
-	margin-left: 150px;
+	width: 140px;
+	margin-left: 175px;
 }
 .gradosSuperiores:nth-child(11){
-	margin-left: 150px;
+	width: 140px;
+	margin-left: 175px;
 }
 .gradosSuperiores:nth-child(12){
 	clear: both;
+	margin-top: 5px;
 	margin-left: 330px;
 }
 .gradosSuperiores:nth-child(13){
-	margin-left: 147px;
+	width: 140px;
+	margin-top: 10px;
+	margin-left: 166px;
 }
 
 .gradosSuperiores:nth-child(14){
 	clear: both;
-	margin-top: 20px;
-	margin-left: 490px;
+	width: 140px;
+	margin-top: 10px;
+	margin-left: 510px;
 }
 /*BOTONES INTERIOR VER POR GRADOS MEDIOS*/
 .gradosMedios{
@@ -140,8 +158,9 @@
 	float: left;
 	margin-right: 6px;
 	text-align: center;
-	font-size: 25px;
-	font-family: sans-serif;
+	font-size: 33px;
+	font-family: 'Oswald', sans-serif;
+	line-height : 40px;
 }
 .gradosMedios a{
 	color:white;
@@ -150,22 +169,22 @@
 
 .gradosMedios:nth-child(1){
 	height: 52px;
-	margin-top: 200px;
+	margin-top: 170px;
 	margin-left: 750px;
 }
 
 .gradosMedios:nth-child(2){
 	clear: both;
 	height: 78px;
-	margin-top: 20px;
+	margin-top: 18px;
 	margin-left: 520px;
 }
 
 .gradosMedios:nth-child(3){
 	clear: both;
 	height: 78px;
-	margin-top: 20px;
-	margin-left: 300px;
+	margin-top: 30px;
+	margin-left: 290px;
 }
 
 .gradosMedios:nth-child(4){
@@ -176,7 +195,7 @@
 .gradosMedios:nth-child(5){
 	clear: both;
 	height: 78px;
-	margin-top: 70px;
+	margin-top: 60px;
 	margin-left: 240px;
 }
 .gradosMedios:nth-child(6){
