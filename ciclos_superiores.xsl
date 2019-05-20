@@ -13,7 +13,9 @@
 			<body>
 				<div class=" ventana">
 					<div class="cabecera">
-						<a href="home.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
+						<a href="home.html">
+							<img src="css/imagenes/cabecera.png" alt="logotipo"/>
+						</a>
 					</div>
 					<div class="central">
 						<ul class="grados">
