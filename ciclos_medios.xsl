@@ -20,7 +20,7 @@
 							<li>
 								<a>
 									<xsl:attribute name="href">
-									datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
+										datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
 									</xsl:attribute>
 									<span><xsl:value-of select="nombre"/></span>
 								</a>
@@ -31,7 +31,7 @@
 					<div class="footer">
 						<div class="boton"><a href="index.html"><img src="css/imagenes/home.png"/></a><br/>home</div>
 						<div class="boton"><a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Superior</xsl:attribute><img src="css/imagenes/porsuperior.png"/></a><br/>grado superior</div>
-						<div class="boton"><a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Medio</xsl:attribute><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
+						<div class="boton"><a><xsl:attribute name="href">ciclos_medios.php?id_ciclo=Medio</xsl:attribute><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
 						<div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
 					</div>
 				</div>
