@@ -9,9 +9,10 @@
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+				<link href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap" rel="stylesheet"/>
 			</head>
 			<body>
-				<div class=" ventana">
+				<div class=" ventana" style="background-image: url('css/imagenes/bg-gSup.jpg')">
 					<div class="cabecera">
 						<a href="home.html">
 							<img src="css/imagenes/cabecera.png" alt="logotipo"/>
@@ -20,7 +21,7 @@
 					<div class="central">
 						<ul class="grados">
 							<xsl:for-each select="/elorrieta/familia/ciclo[tipo='Superior']">
-							<li>
+							<li class="gradosSuperiores">
 								<a>
 									<xsl:attribute name="href">
 										datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
