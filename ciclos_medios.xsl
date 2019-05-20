@@ -10,30 +10,28 @@
 				<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 			</head>
 			<body>
-				<div class="ventana" style="background-image: url('css/imagenes/bg-gMedio.jpg')"> 
+				<div class=" ventana">
 					<div class="cabecera">
-						<a href="home.html">
-                            <img src="css/imagenes/cabecera.png" alt="logotipo"/>
-                        </a>
+						<a href="home.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
 					</div>
 					<div class="central">
 						<ul class="grados">
 							<xsl:for-each select="/elorrieta/familia/ciclo[tipo='Medio']">
-								<li class="gradosMedios">
-									<a>
-										<xsl:attribute name="href">
-											datos_grado.php?id_grado=<xsl:value-of select="@id"/>
-										</xsl:attribute>
-										<span><xsl:value-of select="nombre"/></span>
-									</a>
-								</li>
+							<li>
+								<a>
+									<xsl:attribute name="href">
+									datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
+									</xsl:attribute>
+									<span><xsl:value-of select="nombre"/></span>
+								</a>
+							</li>
 							</xsl:for-each>
 						</ul>
 					</div>
 					<div class="footer">
 						<div class="boton"><a href="index.html"><img src="css/imagenes/home.png"/></a><br/>home</div>
-						<div class="boton"><a href="ciclos_superiores.php"><img src="css/imagenes/porsuperior.png"/></a><br/>grado superior</div>
-						<div class="boton"><a href="ciclos_medios.php"><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
+						<div class="boton"><a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Superior</xsl:attribute><img src="css/imagenes/porsuperior.png"/></a><br/>grado superior</div>
+						<div class="boton"><a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Medio</xsl:attribute><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
 						<div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
 					</div>
 				</div>
