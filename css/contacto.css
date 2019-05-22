@@ -34,7 +34,7 @@ body{
   height:210px;
   background-clip: padding-box;
   text-align: center;
-  background-image: url("imagenes/Asset1.png");
+  background-image: url("imagenes/hexagono_simple_coral.png");
   vertical-align: center;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -138,23 +138,22 @@ body{
 
 
 .boton{
-	display:none;/*
+	
 	clear: both;
 	width: 318.5px;
 	height: 200px;
 	border: 1px solid white;
 	background-color: black;
 	float:left;
-	*/
+	
 	
 }
 .footer{
-	display: none;
-	/*
+
 	display: flex;
 	justify-content: center;
 	clear:both;
-	*/
+	
 }
 
 
