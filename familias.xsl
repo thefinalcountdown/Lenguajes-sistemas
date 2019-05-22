@@ -21,18 +21,20 @@
 						<ul class="grados">
 							<xsl:for-each select="elorrieta/familia">
 								<li class="gradosFamilias"> 
-                                   	<a>
-                                   		<!-- Por cada familia abre un li con su respectivo link. Al hacer click en él aparecen los grados de dicha familia. -->
-										<span><xsl:value-of select="nombre"/></span>
-									</a>
-									<div id="popup" class="overlay light"> <a class="cancel" href="#"></a>
+									<div>
+	                                   	<a class="button" href="#popup">
+	                                   		<!-- Por cada familia abre un li con su respectivo link. Al hacer click en él aparecen los grados de dicha familia. -->
+											<span><xsl:value-of select="nombre"/></span>
+										</a>
+									</div>
+									<div id="popup" class="overlay light"><a class="cancel" href="#"></a>
 										<div class="popup">
 											<h3>Horarios de atención telefónica en la sección de ELORRIETA</h3>
 											<div class="content">
 												<ul>
 													<xsl:for-each select="ciclo">
 														<li>
-															<a>
+															<a class="ciclos_familia">
 																<xsl:attribute name="href">
 																	datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
 																</xsl:attribute>
