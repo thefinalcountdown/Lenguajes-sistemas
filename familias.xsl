@@ -13,7 +13,7 @@
 			<body>
 				<div class="ventana" style="background-image: url('css/imagenes/bg-familias.jpg')"> 
 					<div class="cabecera">
-						<a href="home.html">
+						<a href="index.html">
                             <img src="css/imagenes/cabecera.png" alt="logotipo"/>
                         </a>
 					</div>
@@ -21,28 +21,38 @@
 						<ul class="grados">
 							<xsl:for-each select="elorrieta/familia">
 								<li class="gradosFamilias"> 
+									<xsl:variable name="contador" select="position()"/>
 									<div>
-	                                   	<a class="button" href="#popup">
+	                                   	<a class="button">
+	                                   		<xsl:attribute name="href"><xsl:value-of select="concat('#popup',$contador)"/></xsl:attribute>
 	                                   		<!-- Por cada familia abre un li con su respectivo link. Al hacer click en él aparecen los grados de dicha familia. -->
 											<span><xsl:value-of select="nombre"/></span>
 										</a>
 									</div>
-									<div id="popup" class="overlay light"><a class="cancel" href="#"></a>
+									
+									<div class="overlay light">
+										<xsl:attribute name="id"><xsl:value-of select="concat('popup',$contador)"/></xsl:attribute>
+
+
+										<a class="cancel" href="#">
+										
+									</a>
+
 										<div class="popup">
-											<h3>Horarios de atención telefónica en la sección de ELORRIETA</h3>
+											<h3>Grados</h3>
 											<div class="content">
-												<ul>
+												<!--<ul>-->
 													<xsl:for-each select="ciclo">
-														<li>
+														<!--<li>-->
 															<a class="ciclos_familia">
 																<xsl:attribute name="href">
 																	datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
 																</xsl:attribute>
 																<span><xsl:value-of select="nombre"/></span>
 															</a>
-														</li>
+														<!--</li>-->
 													</xsl:for-each>
-												</ul>
+												<!--</ul>-->
 											</div>
 										</div>
 									</div>
