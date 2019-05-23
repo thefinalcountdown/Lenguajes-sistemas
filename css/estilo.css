@@ -229,8 +229,12 @@
 
 
 /*PRUEBA POPUP*/
-#popup{
-
+#popup3 .ciclos_familia{
+width: 230px;
+}
+#popup4 .ciclos_familia{
+display: block;
+margin-right: 160px;
 }
 
 .button {
@@ -242,10 +246,7 @@
   cursor: pointer;
   transition: all 0.2s ease-out;
 }
-.button:hover {
-  border-color: #999;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-}
+
 .button:active {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
 }
@@ -290,6 +291,7 @@
   border-color: #aaa;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
+
 .popup h3{
   margin-top: 30px;
   color: #666;
