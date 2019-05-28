@@ -33,26 +33,19 @@
 									<div class="overlay light">
 										<xsl:attribute name="id"><xsl:value-of select="concat('popup',$contador)"/></xsl:attribute>
 
-
-										<a class="cancel" href="#">
-										
-									</a>
+										<a class="cancel" href="#"></a>
 
 										<div class="popup">
 											<h3>Grados</h3>
 											<div class="content">
-												<!--<ul>-->
-													<xsl:for-each select="ciclo">
-														<!--<li>-->
-															<a class="ciclos_familia">
-																<xsl:attribute name="href">
-																	datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
-																</xsl:attribute>
-																<span><xsl:value-of select="nombre"/></span>
-															</a>
-														<!--</li>-->
-													</xsl:for-each>
-												<!--</ul>-->
+												<xsl:for-each select="ciclo">
+													<a class="ciclos_familia">
+														<xsl:attribute name="href">
+															datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
+														</xsl:attribute>
+														<span><xsl:value-of select="nombre"/></span>
+													</a>
+												</xsl:for-each>
 											</div>
 										</div>
 									</div>
