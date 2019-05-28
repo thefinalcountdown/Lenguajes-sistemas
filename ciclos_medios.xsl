@@ -11,9 +11,9 @@
 				<link href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap" rel="stylesheet"/>
 			</head>
 			<body>
-				<div class=" ventana" style="background-image: url('css/imagenes/bg-gMedio.jpg')">
+				<div class="ventana" style="background-image: url('css/imagenes/bg-gMedio.jpg')">
 					<div class="cabecera">
-						<a href="home.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
+						<a href="index.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
 					</div>
 					<div class="central">
 						<ul class="grados">
