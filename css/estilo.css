@@ -485,9 +485,9 @@ display: table;
 	margin-left: 6em;
 }
 
-.contenido_acceso
+.contenido_acceso, .contenido_salidas
 {
-	height: 450px;
+	height: auto;
 }
 
 .contenido_acceso h4
@@ -500,6 +500,11 @@ display: table;
 {
 	margin-left: 2em;
 	text-align: left;
+}
+
+.info_salidas, .info_acceso, .info_asignaturas
+{
+	padding-bottom: 2em;
 }
 
 .primero
