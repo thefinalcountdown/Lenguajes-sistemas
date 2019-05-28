@@ -53,11 +53,13 @@
 
                                                 <div class="contenido_salidas popup">
                                                     <h3>Salidas laborales</h3>
-                                                    <xsl:for-each select="trabajo">
-                                                        <p>
-                                                            <xsl:value-of select="."/>
-                                                        </p>
-                                                    </xsl:for-each>
+                                                    <div class="info_salidas">
+                                                        <xsl:for-each select="trabajo">
+                                                            <p>
+                                                                <xsl:value-of select="."/>
+                                                            </p>
+                                                        </xsl:for-each>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -70,18 +72,20 @@
 
                                                 <div class="contenido_acceso popup">
                                                     <h3>Modo de acceso</h3>
-                                                    <h4>Acceso directo</h4>
-                                                    <xsl:for-each select="acceso_directo">
-                                                    <p>
-                                                        <xsl:value-of select="."/>
-                                                    </p>
-                                                    </xsl:for-each>
-                                                    <h4>Acceso mediante prueba</h4>
-                                                    <xsl:for-each select="acceso_prueba">
-                                                    <p>
-                                                        <xsl:value-of select="."/>
-                                                    </p>
-                                                    </xsl:for-each>
+                                                    <div class="info_acceso">
+                                                        <h4>Acceso directo</h4>
+                                                        <xsl:for-each select="acceso_directo">
+                                                        <p>
+                                                            <xsl:value-of select="."/>
+                                                        </p>
+                                                        </xsl:for-each>
+                                                        <h4>Acceso mediante prueba</h4>
+                                                        <xsl:for-each select="acceso_prueba">
+                                                        <p>
+                                                            <xsl:value-of select="."/>
+                                                        </p>
+                                                        </xsl:for-each>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -95,36 +99,38 @@
 
                                                 <div class="contenido_asignaturas popup">
                                                     <h3>Asignaturas</h3>
-                                                    <div class="primero">
-                                                        <p>Primer Curso</p>
-                                                        <table class="tabla_primero">
-                                                            <tr>
-                                                                <th>Nombre</th>
-                                                                <th>Horas</th>
-                                                            </tr>
-                                                            <xsl:for-each select="primero/modulo">
-                                                            <tr>
-                                                                <td><xsl:value-of select="nombre"/></td>
-                                                                <td><xsl:value-of select="horas"/></td>
-                                                            </tr>
-                                                            </xsl:for-each>
-                                                        </table>
-                                                   </div>
-
-                                                    <div class="segundo">
-                                                        <p>Segundo Curso</p>
-                                                        <table class="tabla_segundo">
-                                                            <tr>
-                                                                <th>Nombre</th>
-                                                                <th>Horas</th>
-                                                            </tr>
-                                                            <xsl:for-each select="segundo/modulo">
+                                                    <div class="info_asignaturas">
+                                                        <div class="primero">
+                                                            <p>Primer Curso</p>
+                                                            <table class="tabla_primero">
+                                                                <tr>
+                                                                    <th>Nombre</th>
+                                                                    <th>Horas</th>
+                                                                </tr>
+                                                                <xsl:for-each select="primero/modulo">
                                                                 <tr>
                                                                     <td><xsl:value-of select="nombre"/></td>
                                                                     <td><xsl:value-of select="horas"/></td>
                                                                 </tr>
-                                                            </xsl:for-each>
-                                                        </table>
+                                                                </xsl:for-each>
+                                                            </table>
+                                                       </div>
+
+                                                        <div class="segundo">
+                                                            <p>Segundo Curso</p>
+                                                            <table class="tabla_segundo">
+                                                                <tr>
+                                                                    <th>Nombre</th>
+                                                                    <th>Horas</th>
+                                                                </tr>
+                                                                <xsl:for-each select="segundo/modulo">
+                                                                    <tr>
+                                                                        <td><xsl:value-of select="nombre"/></td>
+                                                                        <td><xsl:value-of select="horas"/></td>
+                                                                    </tr>
+                                                                </xsl:for-each>
+                                                            </table>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
