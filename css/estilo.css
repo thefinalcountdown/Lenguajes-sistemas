@@ -411,7 +411,71 @@ display: table;
 	border-radius: 42px 42px 42px 42px;
 }
 
+/* Datos de los ciclos */
+
+.datos_ciclo
+{
+	background-size: 1280px 1024px;
+  background-position: -12px -158px;
+	background-repeat: no-repeat;
+}
+
+.pantalla
+{
+	height: 730px;
+}
+
+#resumen li
+{
+	list-style-type: none; 
+}
+
+#titulo_datos
+{
+	margin-top: 13em;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 1em 0;
+	text-align: center;
+}
+
+#resumen p
+{
+	margin: 0.5em 4em;
+}
+
+#salidas_laborales, #acceso, #asignaturas
+{
+	float: left;
+}
+
+#salidas_laborales, #acceso, #asignaturas
+{
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 1em;
+}
 
 
+#acceso h3, #salidas_laborales h3, #asignaturas h3
+{
+	text-align: center;
+	padding: 0 1em;
+	width: 150px;
+}
 
+.contenido_salidas, .contenido_acceso, .contenido_asignaturas
+{
+	display: none;
+}
 
+.botonera
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 8em;
+}
+
+.footer_datos
+{
+	margin-top: 8em;
+}
