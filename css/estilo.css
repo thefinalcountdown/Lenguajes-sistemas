@@ -399,9 +399,7 @@ display: table;
 .popup p {
   margin: 0 0 1em;
 }
-.popup p:last-child {
-  margin: 0;
-}
+
 .ciclos_familia{
 	background-color: #FF6F61;
 	padding-top:30px;
@@ -411,12 +409,12 @@ display: table;
 	border-radius: 42px 42px 42px 42px;
 }
 
-/* Datos de los ciclos */
+/* DATOS DE LOS CICLOS */
 
 .datos_ciclo
 {
 	background-size: 1280px 1024px;
-  background-position: -12px -158px;
+ 	background-position: -12px -158px;
 	background-repeat: no-repeat;
 }
 
@@ -445,27 +443,22 @@ display: table;
 
 #salidas_laborales, #acceso, #asignaturas
 {
-	float: left;
-}
-
-#salidas_laborales, #acceso, #asignaturas
-{
 	background-color: #ffffff;
 	border-radius: 30px;
 	padding: 1em;
 }
 
 
-#acceso h3, #salidas_laborales h3, #asignaturas h3
+#salidas_laborales, #acceso, #asignaturas
 {
+	width: 200px;
+	padding: 1.5em 1em;
 	text-align: center;
-	padding: 0 1em;
-	width: 150px;
 }
 
-.contenido_salidas, .contenido_acceso, .contenido_asignaturas
+#salidas_laborales .button, #acceso .button, #asignaturas .button
 {
-	display: none;
+	color:black;
 }
 
 .botonera
@@ -479,3 +472,67 @@ display: table;
 {
 	margin-top: 8em;
 }
+
+#popup_salidas, #popup_asignaturas, #popup_acceso
+{
+	height: 867px;
+}
+
+.contenido_asignaturas
+{
+	width: 1100px;
+	height: 470px;
+	margin-left: 6em;
+}
+
+.contenido_acceso
+{
+	height: 450px;
+}
+
+.contenido_acceso h4
+{
+	font-size: 20px;
+	margin-bottom: 1em;
+}
+
+.contenido_salidas p
+{
+	margin-left: 2em;
+	text-align: left;
+}
+
+.primero
+{
+	float:left;
+	margin-left: 3em; 
+}
+
+.segundo
+{
+	float: right;
+	margin-right: 1em;
+}
+
+.contenido_acceso h3, .contenido_asignaturas h3, .contenido_salidas h3
+{
+	font-size: 30px;
+}
+
+.contenido_asignaturas p
+{
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+th, td
+{
+	text-align: left;
+	padding-right: 3em;
+}
+
+td
+{
+	padding-bottom: 0.7em;
+}
+
