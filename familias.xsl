@@ -47,6 +47,10 @@
 													</a>
 												</xsl:for-each>
 											</div>
+											<div class="leyenda">
+												<div class="Gsuperior">Grado superior</div>
+												<div class="Gmedio">Grado Medio</div>
+											</div>
 										</div>
 									</div>
                                 </li>
