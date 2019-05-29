@@ -153,6 +153,7 @@ body, .ventana, html
 	margin-top: 10px;
 	margin-left: 510px;
 }
+
 /*BOTONES INTERIOR VER POR GRADOS MEDIOS*/
 .gradosMedios{
 	display: block;
@@ -230,6 +231,24 @@ body, .ventana, html
 
 
 /*POPUP*/
+.leyenda{
+	margin-top: 30px;
+	font-size: 20px;
+	height: 60px;
+}
+.Gsuperior{
+	color: #FF6F61;
+	float:left;
+	margin-left: 180px;
+}
+.Gmedio{
+	float: right;
+	color: #BFA29E;
+	margin-right: 180px;
+}
+#popup1, #popup2, #popup3, #popup4, #popup5, #popup6, #popup7, #popup8, #popup9{
+	height: 836px;
+} 
 #popup1 .ciclos_familia{
 width: 248px;
 float: left;
@@ -242,19 +261,23 @@ float: left;
 margin-left: 20px;
 margin-top: 40px;
 }
+#popup2 .ciclos_familia:nth-child(2){
+background-color: #BFA29E;
+	}
 #popup3 .ciclos_familia{
 width: 250px;
 float: left;
 margin-left: 20px;
-margin-bottom: 40px;
-margin-top: 40px;
+margin-top: 30px;
 }
+#popup3 .ciclos_familia:nth-child(2){
+background-color: #BFA29E;
+	}
 #popup4 .ciclos_familia{
 width: 250px;
 float: left;
 margin-left: 156px;
-margin-bottom: 40px;
-margin-top: 40px;
+margin-top: 10px;
 }
 
 #popup5 .ciclos_familia{
@@ -267,19 +290,20 @@ padding-top:20px;
 padding-bottom: 20px;
 display: table;
 }
+#popup5 .ciclos_familia:nth-child(1n+3){
+background-color: #BFA29E;
+	}
 #popup6 .ciclos_familia{
 width: 250px;
 float: left;
 margin-left: 20px;
-margin-bottom: 40px;
-margin-top: 40px;
+margin-top: 20px;
 }
 #popup7 .ciclos_familia{
 width: 300px;
 float: left;
 margin-left: 156px;
-margin-bottom: 40px;
-margin-top: 40px;
+margin-top: 20px;
 }
 #popup8 .ciclos_familia{
 width: 250px;
@@ -291,6 +315,9 @@ padding-top:20px;
 padding-bottom: 20px;
 display: table;
 }
+#popup8 .ciclos_familia:nth-child(4){
+background-color: #BFA29E;
+	}
 #popup9 .ciclos_familia{
 width: 250px;
 float: left;
@@ -301,6 +328,9 @@ padding-top:25px;
 padding-bottom: 25px;
 display: table;
 }
+#popup9 .ciclos_familia:nth-child(2){
+background-color: #BFA29E;
+	}
 
 .button {
   
@@ -332,8 +362,8 @@ display: table;
 .overlay .cancel {
   position:fixed;
 	transform: translate(-60%,0%);
-  width: 100%;
-  height: 100%;
+  width: 1280px;
+  height: 1024px;
   cursor: default;
 }
 .overlay:target {
@@ -356,7 +386,7 @@ display: table;
   	padding-top: 20px;
   	background: rgba(255,255,255,0.8);
   	width: 600px;
-  	height: 350px;
+  	height: 400px;
   	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   	position: relative;
 }
@@ -376,7 +406,7 @@ display: table;
   	padding-top: 20px;
   	background: rgba(255,255,255,0.8);
   	width: 600px;
-  	height: 350px;
+  	height: 400px;
   	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   	position: relative;
 }
@@ -430,6 +460,7 @@ display: table;
 
 #titulo_datos
 {
+	font-family: sans-serif;
 	margin-top: 13em;
 	background-color: rgba(255, 255, 255, 0.7);
 	padding: 1em 0;
@@ -478,6 +509,7 @@ display: table;
 .contenido_asignaturas
 {
 	width: 1200px;
+	font-family: sans-serif;
 	height: 470px;
 	margin-left: 2em;
 	margin-top: 200px;
@@ -488,6 +520,7 @@ display: table;
 	height: 470px;
 	overflow: scroll;
 	margin-top: 200px;
+	font-family: sans-serif;
 }
 
 .contenido_acceso h4
@@ -501,6 +534,7 @@ display: table;
 	margin-left: 3em;
 	margin-right: 3em;
 	text-align: justify;
+	font-family: sans-serif;
 }
 
 .info_salidas, .info_acceso, .info_asignaturas
@@ -527,8 +561,11 @@ display: table;
 
 .contenido_asignaturas p
 {
+
 	font-size: 20px;
 	text-decoration: underline;
+	font-weight: bold;
+	color:#FF6F61;
 }
 
 th, td

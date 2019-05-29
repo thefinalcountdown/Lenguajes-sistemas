@@ -140,11 +140,11 @@
                             </xsl:for-each>
                         </div>
                     </div>
-                     <div class="footer footer_datos">
-                        <div class="boton"><a href="index.html"><img src="css/imagenes/home.png"/></a><br/>home</div>
-                        <div class="boton"><a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Superior</xsl:attribute><img src="css/imagenes/porsuperior.png"/></a><br/>grado superior</div>
-                        <div class="boton"><a><xsl:attribute name="href">ciclos_medios.php?id_ciclo=Medio</xsl:attribute><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
-                        <div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
+                    <div class="footer">
+                        <a href="index.html"><div class="boton"><img src="css/imagenes/home.png"/><br/>home</div></a>
+                        <a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Superior</xsl:attribute><div class="boton"><img src="css/imagenes/porsuperior.png"/><br/>grado superior</div></a>
+                        <a><xsl:attribute name="href">ciclos_medios.php?id_ciclo=Medio</xsl:attribute><div class="boton"><img src="css/imagenes/pormedio.png"/><br/>grado medio</div></a>
+                        <a href="familias.php"><div class="boton"><img src="css/imagenes/porfamilias.png"/><br/>familias</div></a>
                     </div>
                 </div>
             </body>

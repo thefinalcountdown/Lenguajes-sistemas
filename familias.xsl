@@ -15,6 +15,19 @@
 					<div class="cabecera">
 						<a href="index.html">
                             <img src="css/imagenes/cabecera.png" alt="logotipo"/>
+                           <!-- <img src="bg-familias.jpg" usemap="#image-map">
+
+								<map name="image-map">
+								    <area target="framename" alt="" title="" href="#popup1" coords="209,448,209,339,304,280,403,337,403,449,304,505" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup2" coords="414,337,511,280,607,338,607,450,510,505,412,451" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup3" coords="617,338,710,280,810,338,807,449,711,505,615,449,614,344" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup4" coords="819,342,917,283,1012,341,1014,450,914,506,819,450" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup5" coords="106,624,105,512,202,457,301,515,302,628,201,683" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup6" coords="312,520,309,626,405,684,501,628,503,513,406,466" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup7" coords="516,514,513,631,609,685,706,627,704,515,612,463" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup8" coords="720,518,718,625,815,685,907,631,908,519,812,460" shape="poly">
+								    <area target="framename" alt="" title="" href="#popup9" coords="924,515,923,628,1015,684,1115,626,1115,515,1019,459" shape="poly">
+								</map>-->
                         </a>
 					</div>
 					<div class="central">
@@ -47,6 +60,10 @@
 													</a>
 												</xsl:for-each>
 											</div>
+											<div class="leyenda">
+												<div class="Gsuperior">Grado superior</div>
+												<div class="Gmedio">Grado Medio</div>
+											</div>
 										</div>
 									</div>
                                 </li>
@@ -54,10 +71,10 @@
 						</ul>
 					</div>
 					<div class="footer">
-						<div class="boton"><a href="index.html"><img src="css/imagenes/home.png"/></a><br/>home</div>
-						<div class="boton"><a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Superior</xsl:attribute><img src="css/imagenes/porsuperior.png"/></a><br/>grado superior</div>
-						<div class="boton"><a><xsl:attribute name="href">ciclos_medios.php?id_ciclo=Medio</xsl:attribute><img src="css/imagenes/pormedio.png"/></a><br/>grado medio</div>
-						<div class="boton"><a href="familias.php"><img src="css/imagenes/porfamilias.png"/></a><br/>familias</div>
+						<a href="index.html"><div class="boton"><img src="css/imagenes/home.png"/><br/>home</div></a>
+						<a><xsl:attribute name="href">ciclos_superiores.php?id_ciclo=Superior</xsl:attribute><div class="boton"><img src="css/imagenes/porsuperior.png"/><br/>grado superior</div></a>
+						<a><xsl:attribute name="href">ciclos_medios.php?id_ciclo=Medio</xsl:attribute><div class="boton"><img src="css/imagenes/pormedio.png"/><br/>grado medio</div></a>
+						<a href="familias.php"><div class="boton"><img src="css/imagenes/porfamilias.png"/><br/>familias</div></a>
 					</div>
 
 				</div>
