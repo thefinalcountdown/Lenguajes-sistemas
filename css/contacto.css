@@ -19,7 +19,11 @@ body, .ventana, html
 	height: 30px;
 	background-repeat: no-repeat;
 }
-
+.central{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
 
 /*footer*/
 
@@ -33,8 +37,9 @@ body, .ventana, html
 }
 
 .boton{
-	width: 318.7px;
-	height: 198.7px;
+	margin-top:44.9px;
+	width: 318px;
+	height: 198px;
 	border: 1px solid white;
 	background-color: black;
 	float: left;
@@ -59,7 +64,8 @@ body, .ventana, html
 	background-position: center;
 }
 #horario_telf p {
-	transform: translate(15%, 60%);
+	margin-top: 28px;
+	margin-left: 30px;
 	width: 200px;
 }
 #horario_secretaria {
@@ -76,7 +82,7 @@ body, .ventana, html
 	background-position: center;
 }
 #horario_secretaria p {
-	transform: translate(35%, 13%);
+margin-left: 53px;
 	width: 150px;
 }
 .button {
@@ -151,19 +157,17 @@ height: 830px;
 
 /* mapa */
 .mapa{
-  float: right;
 	margin-top: -650px;
+	margin-left: 400px;
 	padding: none;
 	width: 800px;
 	height: 600px;
-	background-clip: padding-box;
 	text-align: center;
 	background-image: url("imagenes/Hexagono_grande.png");
 	background-size:800px 600px; 
 	vertical-align: center;
 	background-repeat: no-repeat;
 	background-position: center;
-	 position:relative;
  
   opacity:0.9;
 }
