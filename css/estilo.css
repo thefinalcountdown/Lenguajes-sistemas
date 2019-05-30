@@ -6,10 +6,6 @@ body, .ventana, html
 	background-repeat: no-repeat;
 }
 
-.central{
-	height: 824px;
-}
-
 .cabecera{
 	height: 30px;
 	background-repeat: no-repeat;
@@ -218,8 +214,8 @@ body, .ventana, html
 }
 
 .boton{
-	width: 318.9px;
-	height: 198.9px;
+	width: 318px;
+	height: 198px;
 	border: 1px solid white;
 	background-color: black;
 	float: left;
@@ -334,7 +330,6 @@ background-color: #BFA29E;
 
 .button {
   
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #fff;
   text-decoration: none;
@@ -360,11 +355,12 @@ background-color: #BFA29E;
   background: rgba(255, 255, 255, 0.5);
 }
 .overlay .cancel {
-  position:fixed;
-	transform: translate(-60%,0%);
+  position:absolute;
   width: 1280px;
-  height: 1024px;
+  height: 824px;
   cursor: default;
+  top: 0;
+  left: 0;
 }
 .overlay:target {
   visibility: visible;
@@ -478,7 +474,7 @@ background-color: #BFA29E;
 	border-radius: 30px;
 	padding: 1em;
 	border-color: #aaa;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -506,21 +502,26 @@ background-color: #BFA29E;
 	height: 824px;
 }
 
-.contenido_asignaturas
+.contenido_acceso, .contenido_salidas, .contenido_asignaturas
 {
-	width: 1200px;
+	height: 480px;
+	margin-top: 170px;
 	font-family: sans-serif;
-	height: 470px;
-	margin-left: 2em;
-	margin-top: 200px;
 }
 
 .contenido_acceso, .contenido_salidas
 {
-	height: 470px;
-	overflow: scroll;
-	margin-top: 200px;
-	font-family: sans-serif;
+	overflow-y: scroll;
+}
+
+.contenido_asignaturas
+{
+	height: 500px;
+	width: 1100px;
+	margin-left: 5em;
+	overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 .contenido_acceso h4
@@ -542,17 +543,12 @@ background-color: #BFA29E;
 	padding-bottom: 2em;
 }
 
-.primero
+.primero, .segundo
 {
-	float:left;
-	margin-left: 3em; 
+	display: inline-block;
+	margin-left: 4em; 
 }
 
-.segundo
-{
-	float: right;
-	margin-right: 3em;
-}
 
 .contenido_acceso h3, .contenido_asignaturas h3, .contenido_salidas h3
 {
@@ -572,10 +568,10 @@ th, td
 {
 	text-align: left;
 	padding-right: 3em;
-}
-
-td
-{
 	padding-bottom: 0.7em;
 }
 
+th
+{
+	text-decoration: underline;
+}
