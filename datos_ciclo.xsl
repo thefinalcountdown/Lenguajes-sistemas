@@ -15,7 +15,7 @@
                         <div class="cabecera">
                             <a href="index.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
                         </div>
-                        <div class="argumento">
+                        <div class="central">
                             <xsl:for-each select="elorrieta/familia/ciclo">
                                 <xsl:if test="@id=$id_ciclo">
                                     <div id="titulo_datos">
