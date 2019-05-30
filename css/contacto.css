@@ -110,12 +110,14 @@ margin-left: 53px;
 }
 .overlay.light {
 	background: rgba(255, 255, 255, 0.5);
+    z-index:1000;
 }
 .overlay .cancel {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	cursor: default;
+    z-index:1000;
 }
 .overlay:target {
 	visibility: visible;
@@ -145,6 +147,7 @@ margin-left: 53px;
 }
 .popup p {
 	margin: 0 0 1em;
+	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 }
 .popup p:last-child {
 	margin: 0;
@@ -156,7 +159,7 @@ height: 830px;
 /*fin pop up*/
 
 /* mapa */
-.mapa{
+#mapa{
 	margin-top: -650px;
 	margin-left: 400px;
 	padding: none;
@@ -168,14 +171,14 @@ height: 830px;
 	vertical-align: center;
 	background-repeat: no-repeat;
 	background-position: center;
- 
-  opacity:0.9;
+    opacity:0.9;
+	
 }
 /*
 .mapa iframe{
 	margin-top: 150px;
 }*/
-.mapa img{
+#mapa img{
 	margin-top: 100px;
 	width: 500px;
 	height: 400px;
