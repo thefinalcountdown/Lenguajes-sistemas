@@ -39,7 +39,7 @@ body {
 	background-position: center;
 }
 #horario_telf p {
-	transform: translate(15%, 90%);
+	transform: translate(15%, 60%);
 	width: 200px;
 }
 #horario_secretaria {
@@ -55,8 +55,8 @@ body {
 	background-position: center;
 }
 #horario_secretaria p {
-	transform: translate(15%, 90%);
-	width: 200px;
+	transform: translate(35%, 13%);
+	width: 150px;
 }
 .button {
 	font-family: Helvetica, Arial, sans-serif;
@@ -103,7 +103,8 @@ body {
 	background: #fff;
 	width: 300px;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-	position: relative;
+	position:relative;
+	 z-index:1000;
 }
 .light .popup {
 	border-color: #aaa;
@@ -124,6 +125,18 @@ body {
 .popup p:last-child {
 	margin: 0;
 }
+#popup1{
+height: 830px;
+}
+#popup2{
+height: 830px;
+}
+#popup3{
+height: 830px;
+}
+#popup4{
+height: 830px;
+}
 /*fin pop up*/
 
 /* mapa */
@@ -140,11 +153,17 @@ body {
 	vertical-align: center;
 	background-repeat: no-repeat;
 	background-position: center;
-	
+	 position:relative;
+ 
   opacity:0.9;
 }
 .mapa iframe{
 	margin-top: 150px;
+}
+.mapa img{
+	margin-top: 100px;
+	width: 500px;
+	height: 400px;
 }
 /*footer*/
 
