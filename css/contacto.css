@@ -1,34 +1,55 @@
-body {
-	margin: none;
-	padding: none;
+
+body, .ventana, html
+{
 	width: 1280px;
 	height: 1024px;
-}
-.ventana {
-	width: 1280px;
-	height: 1024px;
-	background-image: url("imagenes/fondo_contacto.jpg");
+	margin: 0;
 	background-repeat: no-repeat;
-	background-position: right;
-	background-position-y: -80px;
-	background-size: 1280px 1024px;
-}
-.cabecera {
-	height: 150px;
-	transform: translate(0%, 0%);
-	opacity: 0.8;
-}
-.central {
-	display: block;
-	height: 780px;
 }
 
+.ventana {
+
+	background-image: url("imagenes/fondo_contacto.jpg");
+	background-size: 1280px 1024px;
+}
+.pantalla
+{
+	height: 824px;
+}
+.cabecera{
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+
+/*footer*/
+
+
+.boton img{
+	height: 98px;
+	margin-top: 30px;
+}
+.boton p{
+	padding-top: 8px;
+}
+
+.boton{
+	width: 318px;
+	height: 198px;
+	border: 1px solid white;
+	background-color: black;
+	float: left;
+	color: white;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
 
 
 /*principio popup*/
 #horario_telf {
 	margin-left: 10px;
-	margin-top: 100px;
+	margin-top: 200px;
 	width: 270px;
 	height: 210px;
 	background-clip: padding-box;
@@ -45,6 +66,7 @@ body {
 #horario_secretaria {
 	margin-left: 10px;
 	margin-top: 100px;
+	margin-bottom:80px; 
 	width: 270px;
 	height: 210px;
 	background-clip: padding-box;
@@ -66,10 +88,7 @@ body {
 	cursor: pointer;
 	transition: all 0.2s ease-out;
 }
-.button:hover {
-	border-color: #999;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-}
+
 .button:active {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
 }
@@ -164,30 +183,5 @@ height: 830px;
 	margin-top: 100px;
 	width: 500px;
 	height: 400px;
-}
-/*footer*/
-
-.footer{
-	clear: both;
-	margin-top:50px;
-}
-.boton img{
-	height: 98px;
-	margin-top: 35px;
-}
-.boton p{
-	padding-top: 8px;
-}
-
-.boton{
-	width: 318px;
-	height: 200px;
-	border: 1px solid white;
-	background-color: black;
-	float: left;
-	color: white;
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-size:20px;
-	text-align:center;
 }
 
