@@ -12,22 +12,24 @@
 			</head>
 			<body>
 				<div class="ventana" style="background-image: url('css/imagenes/bg-gMedio.jpg')">
-					<div class="cabecera">
-						<a href="index.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
-					</div>
-					<div class="central">
-						<ul class="grados">
-							<xsl:for-each select="/elorrieta/familia/ciclo[tipo='Medio']">
-							<li class="gradosMedios">
-								<a>
-									<xsl:attribute name="href">
-										datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
-									</xsl:attribute>
-									<span><xsl:value-of select="nombre"/></span>
-								</a>
-							</li>
-							</xsl:for-each>
-						</ul>
+					<div class="pantalla">
+						<div class="cabecera">
+							<a href="index.html"><img src="css/imagenes/cabecera.png" alt="logotipo"/></a>
+						</div>
+						<div class="central">
+							<ul class="grados">
+								<xsl:for-each select="/elorrieta/familia/ciclo[tipo='Medio']">
+								<li class="gradosMedios">
+									<a>
+										<xsl:attribute name="href">
+											datos_ciclo.php?id_grado=<xsl:value-of select="@id"/>
+										</xsl:attribute>
+										<span><xsl:value-of select="nombre"/></span>
+									</a>
+								</li>
+								</xsl:for-each>
+							</ul>
+						</div>
 					</div>
 					<div class="footer">
 						<a href="index.html"><div class="boton"><img src="css/imagenes/home.png"/><br/>home</div></a>
