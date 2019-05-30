@@ -1,7 +1,6 @@
 
 body{
-	margin:0;
-	padding: none;
+	margin: 0;
 	width: 1280px;
 	height: 1024px;
 }
@@ -11,18 +10,14 @@ body{
 	height: 1024px;
 	background-image: url("imagenes/fondo_principal.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: 1280px 1024px;
 }
 .cabecera{
 	height: 150px;
-	transform: translate(0%, 0%);
 }
 
 .central{
 	display: block;
-	height: auto;
-	
 }
 
 li{
@@ -45,8 +40,6 @@ a{
 	text-decoration: none;
 	color: #ffff;
 	text-align: center;
-	
-	
 }
 .elemento-lista p{
 	margin-right: 15px;
@@ -70,44 +63,19 @@ a{
 	font-family: 'Amatic SC', cursive;
 	font-size: 2.5em;
 	font-weight: bold;
-	clear:both;
 	float:right;
 	margin-right:  560px;
 	width:165px;
 	height: 40px;
-	margin-top:none;
 	background-color: rgba(162,162,162,0.70);
 	padding:10px;
 	color: #ffff;
 	border-radius: 10px;
 	text-align: center;
-  vertical-align: middle;
   line-height: 40px;
 	
 }
 i{
-	
 	margin:4px;
 }
-
-.boton{
-	display:none;/*
-	clear: both;
-	width: 318.5px;
-	height: 200px;
-	border: 1px solid white;
-	background-color: black;
-	float:left;
-	*/
-	
-}
-.footer{
-	display: none;
-	/*
-	display: flex;
-	justify-content: center;
-	clear:both;
-	*/
-}
-
 
