@@ -10,7 +10,6 @@ body, .ventana, html
 .ventana {
 
 	background-image: url("imagenes/fondo_contacto.jpg");
-	background-size: 1280px 1024px;
 }
 .pantalla
 {
@@ -34,8 +33,8 @@ body, .ventana, html
 }
 
 .boton{
-	width: 318px;
-	height: 198px;
+	width: 318.7px;
+	height: 198.7px;
 	border: 1px solid white;
 	background-color: black;
 	float: left;
