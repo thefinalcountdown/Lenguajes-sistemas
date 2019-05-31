@@ -15,13 +15,13 @@ body, .ventana, html
 /*BOTONES INTERIOR VER POR FAMILIAS*/
 .gradosFamilias{
 	display: block;
-	width: 194px;
+	width: 150px;
 	height: 112px;
 	color: white;
 	float: left;
 	margin-right: 6px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 35px;
 	font-family: 'Oswald', sans-serif;
 	line-height : 25px;
 }
@@ -34,23 +34,48 @@ body, .ventana, html
 	margin-top: 320px;
 	margin-left: 4px;
 }
+.gradosFamilias:nth-child(1){
+	margin-top: 320px;
+	padding-left:20px;
+}
+.gradosFamilias:nth-child(2){
+	margin-top: 320px;
+	padding-left: 50px;
+}
+.gradosFamilias:nth-child(3){
+	margin-top: 320px;
+	padding-left: 40px;
+}
+.gradosFamilias:nth-child(4){
+	margin-top: 320px;
+	padding-left: 40px;
+}
 .gradosFamilias:nth-child(-n+1){
 	margin-left: 165px;
 }
 .gradosFamilias:nth-child(5){
 	clear: left;
 	margin-top: 140px;
-	margin-left: 70px;
+	margin-left: 90px;
 }
 .gradosFamilias:nth-child(n+5){
 	margin-top: 70px;
 	}
-.gradosFamilias:nth-child(9){
-	margin-top: 80px;
-	margin-left: 10px;
-}
 .gradosFamilias:nth-child(6){
 	margin-top: 80px;
+	padding-left: 50px;
+}
+.gradosFamilias:nth-child(7){
+	margin-top: 70px;
+	margin-left: 45px;
+}
+.gradosFamilias:nth-child(8){
+	margin-top: 70px;
+	margin-left: 45px;
+}
+.gradosFamilias:nth-child(9){
+	margin-top: 80px;
+	margin-left:50px;
 }
 /*BOTONES INTERIOR VER POR GRADOS SUPERIORES*/
 .gradosSuperiores{
