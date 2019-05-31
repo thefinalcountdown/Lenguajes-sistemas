@@ -67,6 +67,7 @@ body, .ventana, html
 	margin-top: 28px;
 	margin-left: 30px;
 	width: 200px;
+	line-height: 19px;
 }
 #horario_secretaria {
 	margin-left: 10px;
@@ -84,6 +85,7 @@ body, .ventana, html
 #horario_secretaria p {
 margin-left: 53px;
 	width: 150px;
+	line-height: 19px;
 }
 .button {
 	font-family: Helvetica, Arial, sans-serif;
