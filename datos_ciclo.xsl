@@ -92,25 +92,25 @@
 
                                         
                                         <div id="asignaturas">
-                                            <a class="button" href="#popup_asignaturas"><span>Asignaturas</span></a>
+                                            <a class="button" href="#popup_asignaturas"><span>Módulos</span></a>
 
                                             <div class="overlay light" id="popup_asignaturas">
                                                 <a class="cancel" href="#"></a>
 
                                                 <div class="contenido_asignaturas popup">
-                                                    <h3>Asignaturas</h3>
+                                                    <h3>Módulos</h3>
                                                     <div class="info_asignaturas">
                                                         <div class="primero">
                                                             <p>Primer Curso</p>
                                                             <table class="tabla_primero">
                                                                 <tr>
                                                                     <th>Nombre</th>
-                                                                    <th>Horas</th>
+                                                                    <th class="horas">Horas</th>
                                                                 </tr>
                                                                 <xsl:for-each select="primero/modulo">
                                                                 <tr>
                                                                     <td><xsl:value-of select="nombre"/></td>
-                                                                    <td><xsl:value-of select="horas"/></td>
+                                                                    <td class="horas"><xsl:value-of select="horas"/></td>
                                                                 </tr>
                                                                 </xsl:for-each>
                                                             </table>
@@ -121,12 +121,12 @@
                                                             <table class="tabla_segundo">
                                                                 <tr>
                                                                     <th>Nombre</th>
-                                                                    <th>Horas</th>
+                                                                    <th class="horas">Horas</th>
                                                                 </tr>
                                                                 <xsl:for-each select="segundo/modulo">
                                                                     <tr>
                                                                         <td><xsl:value-of select="nombre"/></td>
-                                                                        <td><xsl:value-of select="horas"/></td>
+                                                                        <td class="horas"><xsl:value-of select="horas"/></td>
                                                                     </tr>
                                                                 </xsl:for-each>
                                                             </table>
