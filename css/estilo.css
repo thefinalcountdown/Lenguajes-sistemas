@@ -253,9 +253,9 @@ body, .ventana, html
 
 /*POPUP*/
 .leyenda{
-	margin-top: 30px;
 	font-size: 20px;
 	height: 60px;
+	padding-top: 30px;
 }
 .Gsuperior{
 	color: #FF6F61;
@@ -289,7 +289,6 @@ background-color: #BFA29E;
 width: 250px;
 float: left;
 margin-left: 20px;
-margin-top: 30px;
 }
 #popup3 .ciclos_familia:nth-child(2){
 background-color: #BFA29E;
@@ -417,9 +416,8 @@ background-color: #BFA29E;
   	padding-top: 20px;
   	background: rgba(255,255,255,0.8);
   	width: 600px;
-  	height: 250px;
+  	height: 280px;
   	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  	position: relative;
 }
 #popup8 .popup {
 	margin-top: 300px;
@@ -459,6 +457,7 @@ background-color: #BFA29E;
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 42px 42px 42px 42px;
+	font-size: 25px;
 }
 
 /* DATOS DE LOS CICLOS */
