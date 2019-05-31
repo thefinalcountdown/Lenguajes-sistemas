@@ -512,12 +512,10 @@ font-family: 'Oswald', sans-serif;
 
 .contenido_asignaturas
 {
-	height: 500px;
+	height: 600px;
 	width: 1100px;
 	margin-left: 5em;
-	overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
+	margin-top: 100px;
 }
 
 .contenido_acceso h4
@@ -565,9 +563,20 @@ th, td
 	text-align: left;
 	padding-right: 3em;
 	padding-bottom: 0.7em;
+	width: 300px;
 }
 
 th
 {
 	text-decoration: underline;
+}
+
+td
+{
+	line-height: 20px;
+}
+
+.horas
+{
+	width: 50px;
 }
