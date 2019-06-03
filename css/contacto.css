@@ -7,6 +7,11 @@ body, .ventana, html
 	background-repeat: no-repeat;
 }
 
+body
+{
+	overflow: hidden;
+}
+
 .ventana {
 
 	background-image: url("imagenes/fondo_contacto.jpg");
@@ -41,6 +46,7 @@ body, .ventana, html
 	width: 318px;
 	height: 198px;
 	border: 1px solid white;
+    border-top: 0;
 	background-color: black;
 	float: left;
 	color: white;

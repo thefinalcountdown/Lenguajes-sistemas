@@ -15,13 +15,13 @@ body, .ventana, html
 /*BOTONES INTERIOR VER POR FAMILIAS*/
 .gradosFamilias{
 	display: block;
-	width: 150px;
+	width: 194px;
 	height: 112px;
 	color: white;
 	float: left;
 	margin-right: 6px;
 	text-align: center;
-	font-size: 35px;
+	font-size: 25px;
 	font-family: 'Oswald', sans-serif;
 	line-height : 25px;
 }
@@ -34,48 +34,23 @@ body, .ventana, html
 	margin-top: 320px;
 	margin-left: 4px;
 }
-.gradosFamilias:nth-child(1){
-	margin-top: 320px;
-	padding-left:20px;
-}
-.gradosFamilias:nth-child(2){
-	margin-top: 320px;
-	padding-left: 50px;
-}
-.gradosFamilias:nth-child(3){
-	margin-top: 320px;
-	padding-left: 40px;
-}
-.gradosFamilias:nth-child(4){
-	margin-top: 320px;
-	padding-left: 40px;
-}
 .gradosFamilias:nth-child(-n+1){
 	margin-left: 165px;
 }
 .gradosFamilias:nth-child(5){
 	clear: left;
 	margin-top: 140px;
-	margin-left: 90px;
+	margin-left: 70px;
 }
 .gradosFamilias:nth-child(n+5){
 	margin-top: 70px;
 	}
-.gradosFamilias:nth-child(6){
-	margin-top: 80px;
-	padding-left: 50px;
-}
-.gradosFamilias:nth-child(7){
-	margin-top: 70px;
-	margin-left: 45px;
-}
-.gradosFamilias:nth-child(8){
-	margin-top: 70px;
-	margin-left: 45px;
-}
 .gradosFamilias:nth-child(9){
 	margin-top: 80px;
-	margin-left:50px;
+	margin-left: 10px;
+}
+.gradosFamilias:nth-child(6){
+	margin-top: 80px;
 }
 /*BOTONES INTERIOR VER POR GRADOS SUPERIORES*/
 .gradosSuperiores{
@@ -253,9 +228,9 @@ body, .ventana, html
 
 /*POPUP*/
 .leyenda{
+	margin-top: 30px;
 	font-size: 20px;
 	height: 60px;
-	padding-top: 30px;
 }
 .Gsuperior{
 	color: #FF6F61;
@@ -289,6 +264,7 @@ background-color: #BFA29E;
 width: 250px;
 float: left;
 margin-left: 20px;
+margin-top: 30px;
 }
 #popup3 .ciclos_familia:nth-child(2){
 background-color: #BFA29E;
@@ -416,8 +392,9 @@ background-color: #BFA29E;
   	padding-top: 20px;
   	background: rgba(255,255,255,0.8);
   	width: 600px;
-  	height: 280px;
+  	height: 250px;
   	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  	position: relative;
 }
 #popup8 .popup {
 	margin-top: 300px;
@@ -457,7 +434,6 @@ background-color: #BFA29E;
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 42px 42px 42px 42px;
-	font-size: 25px;
 }
 
 /* DATOS DE LOS CICLOS */
@@ -499,7 +475,11 @@ background-color: #BFA29E;
 	padding: 1em;
 	border-color: #aaa;
   	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-font-family: 'Oswald', sans-serif;
+}
+
+
+#salidas_laborales, #acceso, #asignaturas
+{
 	width: 200px;
 	padding: 1.5em 1em;
 	text-align: center;
@@ -529,17 +509,19 @@ font-family: 'Oswald', sans-serif;
 	font-family: sans-serif;
 }
 
-.contenido_salidas
+.contenido_acceso, .contenido_salidas
 {
 	overflow-y: scroll;
 }
 
 .contenido_asignaturas
 {
-	height: 600px;
+	height: 500px;
 	width: 1100px;
 	margin-left: 5em;
-	margin-top: 100px;
+	overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 .contenido_acceso h4
@@ -573,7 +555,7 @@ font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 }
 
-.contenido_asignaturas p,.contenido_acceso h4
+.contenido_asignaturas p
 {
 
 	font-size: 20px;
@@ -587,20 +569,9 @@ th, td
 	text-align: left;
 	padding-right: 3em;
 	padding-bottom: 0.7em;
-	width: 300px;
 }
 
 th
 {
 	text-decoration: underline;
-}
-
-td
-{
-	line-height: 20px;
-}
-
-.horas
-{
-	width: 50px;
 }
